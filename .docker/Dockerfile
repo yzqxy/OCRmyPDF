@@ -39,8 +39,7 @@ RUN pip3 install --no-cache-dir \
   -r requirements/main.txt \
   -r requirements/webservice.txt \
   -r requirements/test.txt \
-  -r requirements/watcher.txt \
-  .
+  -r requirements/watcher.txt
 
 FROM base
 
